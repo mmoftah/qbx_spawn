@@ -228,7 +228,7 @@ local function inputHandler()
     stopCamera()
 end
 
-AddEventHandler('qb-spawn:client:setupSpawns', function()
+RegisterNetEvent('qb-spawn:client:setupSpawns', function()
     spawns = {}
 
     spawns[#spawns+1] = {
